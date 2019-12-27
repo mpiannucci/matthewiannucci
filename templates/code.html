@@ -2,5 +2,69 @@
 {% block title %}Matthew Iannucci - Code Portfolio{% endblock %}
 {% block content %}
 	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/code.css') }}">
-
+	<div id="container">
+		<div id="quickLinkContainer">
+			<a id="githubLink" class="quick-link" href="https://github.com/mpiannucci">
+				<img src="{{ url_for('static', filename='img/GitHub_Logo_White.png') }}" style="width: 180px">
+			</a>
+			<a id="resumeLink" class="quick-link" href="{{ url_for('static', filename='doc/MatthewIannucciResume.pdf') }}">
+				<h1>Resume</h1>
+			</a>
+			<a id="linkedInLink" class="quick-link" href="https://www.linkedin.com/in/matthew-iannucci-64a8847a">
+				<img src="{{ url_for('static', filename='img/LI-Logo.png') }}" style="width: 300px">
+			</a>
+		</div>
+		<div id="appsContainer">
+			<h1>Apps</h1>
+			<div id="hopewaves" style="display: flex; flex-direction: row; flex-wrap: wrap;">
+				<a href="https://hopewaves.appspot.com"><img src="{{ url_for('static', filename='img/hopewaves-icon.png') }}" style="width: 150px; height: 150px; border-radius: 25px; margin-right: 16px; margin-top: 16px;"></a>
+				<div style="flex: 1">
+					<a href="https://hopewaves.appspot.com"><h1>HopeWaves</h1></a>
+					<h4>A local surf forecasting service and app for Rhode Island</h4>
+					<p>Running on <a href="https://cloud.google.com/appengine/">Google App Engine</a>, this automated surf forecast pulls in data from <a href="https://polar.ncep.noaa.gov/waves/wavewatch">NOAA's Wave Watch III</a> wave model and generates a custom surf forecast for the Rhode Island coastline. It also packages local beach cameras, buoy data, tide forecasts, and weather information into a easily digestible and modern interface.</p>
+					<div style="flex: 1; display: flex; flex-direction: row; flex-wrap: wrap; align-items: center; align-content: center;">
+						<div style="border-radius: 8px;padding: 8px; margin-right: 8px; margin-bottom: 8px; background-color: grey">
+							Python
+						</div>
+						<div style="border-radius: 8px; padding: 8px; margin-right: 8px; margin-bottom: 8px; background-color: grey">
+							Google Cloud
+						</div>
+						<div style="border-radius: 8px; padding: 8px; margin-right: 8px; margin-bottom: 8px; background-color: grey">
+							React
+						</div>
+						<div style="border-radius: 8px; padding: 8px; margin-right: 8px; margin-bottom: 8px; background-color: grey">
+							React Native
+						</div>
+						<div style="border-radius: 8px; padding: 8px; margin-right: 8px; margin-bottom: 8px; background-color: grey">
+							JavaScript
+						</div>
+						<div style="border-radius: 8px; padding: 8px; margin-right: 8px; margin-bottom: 8px; background-color: grey">
+							TypeScript
+						</div>
+						<div style="border-radius: 8px; padding: 8px; margin-right: 8px; margin-bottom: 8px; background-color: grey">
+							Objective-C
+						</div>
+						<div style="border-radius: 8px; padding: 8px; margin-right: 8px; margin-bottom: 8px; background-color: grey">
+							Swift
+						</div>
+						<div style="border-radius: 8px; padding: 8px; margin-right: 8px; margin-bottom: 8px; background-color: grey">
+							Java
+						</div>
+						<div style="border-radius: 8px; padding: 8px; margin-right: 8px; margin-bottom: 8px; background-color: grey">
+							iOS
+						</div>
+						<div style="border-radius: 8px; padding: 8px; margin-right: 8px; margin-bottom: 8px; background-color: grey">
+							Android
+						</div>
+						<div style="border-radius: 8px; padding: 8px; margin-right: 8px; margin-bottom: 8px; background-color: grey">
+							Web
+						</div>
+						<div style="border-radius: 8px; padding: 8px; margin-right: 8px; margin-bottom: 8px; background-color: grey">
+							Scientific
+						</div>
+					<div>
+				</div>
+			</div>
+		</div>
+	<div>
 {% endblock %}

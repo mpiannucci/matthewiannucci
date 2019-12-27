@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+{% block title %}Matthew Iannucci{% endblock %}
+{% block content %}
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/landing.css') }}">
+	<div id="container">
+		<img id="coverImage" src="{{ url_for('static', filename='img/dock_fish.png') }}" alt="Photo by Andrew Fisher 2019">
+		<div id="introContainer">
+			<h1>Hi! I'm Matt</h1>
+			<h3>I am a software engineer from Rhode Island who enjoys surfing, photography, dogs, and computers.</h3>
+		</div>
+		<div id="detailContainer">
+			<h3>I enjoy working with a variety of platforms. I have written mobile apps and websites, worked on CFD programs, lead an autonomous vehicle team, and much more. For a full breakdown of my work, checkout my <a href="/code">portfolio</a> or my <a href="{{ url_for('static', filename='doc/MatthewIannucciResume.pdf') }}">resume</a>. If you would like to work with me please reach out!</h3>
+			<h1>Contact me</h1>
+			<div id="contactLinkContainer">
+				<h2 class="contact-link"><a href="">Github</a></h2>
+				<h2 class="contact-link"><a href="">Email</a></h2>
+				<h2 class="contact-link"><a href="">LinkedIn</a></h2>
+			</div>
+		</div>
+	</div>
+{% endblock %}

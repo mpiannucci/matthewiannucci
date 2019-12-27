@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>{% block title %}{% endblock %}</title>
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/base.css') }}">
+</head>
+
+<body>
+    <nav class='navBar'>
+        <a class='navBarTitle' href='/'>Matthew Iannucci</a>
+        <a class='navBarLink' href='/code'>Code</a>
+        <a class='navBarLink' href='/photography'>Photography</a>
+    </nav>
+    {% block content %}{% endblock %}
+</body>
+
+</html>

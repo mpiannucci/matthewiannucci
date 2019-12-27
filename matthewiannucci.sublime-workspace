@@ -1,0 +1,360 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"in",
+				"intCodeData"
+			],
+			[
+				"parse",
+				"parsedRawIntCodeData"
+			],
+			[
+				"IPK",
+				"IPK_Relaxation_Factor_Appendages"
+			],
+			[
+				"Maxim",
+				"Maximum_IPK_Iterations_Appendages"
+			],
+			[
+				"tolo",
+				"toLocaleDateString\tmethod"
+			],
+			[
+				"FMI",
+				"FMI_EXECUTOR_SOURCE_DIR"
+			],
+			[
+				"target",
+				"target_compile_options\tcommand"
+			],
+			[
+				"include",
+				"include_directories\tcommand"
+			],
+			[
+				"UNR",
+				"UNRAR_ACTIVE"
+			],
+			[
+				"LEAPS",
+				"LEAPS_ACTIVE"
+			],
+			[
+				"REgg",
+				"REGGIE_SOURCE_DIR\tline 38"
+			],
+			[
+				"REGGIE",
+				"REGGIE_SOURCE_DIR\tline 38"
+			],
+			[
+				"tide",
+				"tideForecastState\tconst"
+			],
+			[
+				"bar",
+				"barWidth\tconst"
+			],
+			[
+				"Nvaatek",
+				"NavatekStatistics"
+			],
+			[
+				"Navatek",
+				"NavatekStatistics"
+			],
+			[
+				"NAVATEK",
+				"NAVATEK_STATISTICS_DIR"
+			],
+			[
+				"navigat",
+				"navigationBar"
+			],
+			[
+				"fetch",
+				"fetch_latest_wave_reading"
+			],
+			[
+				"station",
+				"stations"
+			],
+			[
+				"tar",
+				"target_link_libraries\tcommand"
+			],
+			[
+				"CMAKE_CURRENT",
+				"CMAKE_CURRENT_SOURCE_DIR\tbuiltin"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"form",
+				"Pretty JSON: Format and Sort JSON"
+			],
+			[
+				"forma",
+				"Pretty JSON: Format and Sort JSON"
+			],
+			[
+				"packa",
+				"Preferences: Browse Packages"
+			],
+			[
+				"fo",
+				"TypeScript: Format Document"
+			],
+			[
+				"for",
+				"TypeScript: Format Document"
+			],
+			[
+				"preview",
+				"Markdown Preview: Preview in Browser"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/miannucci.NAVATEKLTD/Development/matthewiannucci"
+	],
+	"file_history":
+	[
+		"/H/.ssh/config",
+		"/C/Users/miannucci.NAVATEKLTD/Mercury/NavaSimDocumentation/Time Domain Aegir/Hydroelasticity/Time_Domain_Hydroelasticity_Tutorial.html",
+		"/C/Users/miannucci.NAVATEKLTD/Mercury/FMIExecutor/Source/FMURunScript.hpp",
+		"/C/Users/miannucci.NAVATEKLTD/Mercury/FMIExecutor/conanfile.txt",
+		"/C/Users/miannucci.NAVATEKLTD/Mercury/StructuralDesign/StructuralDesign/CMake/StructuralDesignConfig.cmake.in",
+		"/C/Users/miannucci.NAVATEKLTD/Mercury/AegirCollaboration/build/linux_amd64/Debug/.gitignore",
+		"/C/Users/miannucci.NAVATEKLTD/Mercury/AegirCollaboration/.gitignore",
+		"/C/Users/miannucci.NAVATEKLTD/Mercury/AegirCollaboration/.gitlab-ci.yml",
+		"/C/Users/miannucci.NAVATEKLTD/Development/hopewaves/react/tsconfig.json",
+		"/C/Users/miannucci.NAVATEKLTD/Development/hopewaves/react/babel.config.js",
+		"/C/Users/miannucci.NAVATEKLTD/Development/hopewaves/web/README.md",
+		"/C/Users/miannucci.NAVATEKLTD/Development/hopewaves/web/static/css/base.css",
+		"/C/Users/miannucci.NAVATEKLTD/Development/hopewaves/react/package.json",
+		"/C/Users/miannucci.NAVATEKLTD/Development/hopewaves/react/web/webpack/webpack.dev.config.js",
+		"/C/Users/miannucci.NAVATEKLTD/Mercury/ReggieCpp/Source/Point.hpp",
+		"/C/Users/miannucci.NAVATEKLTD/Mercury/ReggieCpp/Tests/Source/main.cpp",
+		"/C/Users/miannucci.NAVATEKLTD/Mercury/ReggieCpp/Source/Reggie_global.hpp",
+		"/C/Users/miannucci.NAVATEKLTD/Mercury/ReggieCpp/Source/Point.cpp",
+		"/C/Users/miannucci.NAVATEKLTD/Mercury/ReggieCpp/OpenInVS.bat",
+		"/C/Users/miannucci.NAVATEKLTD/Mercury/ReggieCpp/CMakeLists.txt",
+		"/C/Users/miannucci.NAVATEKLTD/Mercury/ReggieCpp/Tests/CMakeLists.txt",
+		"/C/Users/miannucci.NAVATEKLTD/Mercury/ReggieCpp/Source/3DPoint.hpp",
+		"/C/Users/miannucci.NAVATEKLTD/Mercury/ReggieNotes.md",
+		"/C/Users/miannucci.NAVATEKLTD/Mercury/ReggieCpp/Tests/ThirdParty/catch2/catch.hpp",
+		"/C/Users/miannucci.NAVATEKLTD/Mercury/ReggieCpp/build/.gitignore",
+		"/C/Users/miannucci.NAVATEKLTD/Mercury/ReggieCpp/README.md",
+		"/C/Users/miannucci.NAVATEKLTD/Development/hopewaves/web_v2/model/buoy_data.py",
+		"/C/Users/miannucci.NAVATEKLTD/Development/hopewaves/web_v2/main.py",
+		"/C/Users/miannucci.NAVATEKLTD/Development/hopewaves/web_v2/model/camera.py",
+		"/C/Users/miannucci.NAVATEKLTD/Development/hopewaves/react/src/components/full_forecast_chart.web.js",
+		"/C/Users/miannucci.NAVATEKLTD/Development/hopewaves/web_v2/README.md",
+		"/C/Users/miannucci.NAVATEKLTD/Development/hopewaves/react/src/components/tide_chart.web.js",
+		"/C/Users/miannucci.NAVATEKLTD/Development/hopewaves/react/src/screens/home/index.web.js",
+		"/C/Users/miannucci.NAVATEKLTD/Development/hopewaves/flutter/lib/api/hopewaves.dart",
+		"/C/Users/miannucci.NAVATEKLTD/Mercury/NavatekStatistics/Build/win64/NavatekStatisticsConfig.cmake",
+		"/C/Users/miannucci.NAVATEKLTD/Mercury/MetaViz/Installer/CMakeLists.txt",
+		"/C/Users/miannucci.NAVATEKLTD/Mercury/MetaViz/OpenInVS2013_DEBUG.bat",
+		"/C/Users/miannucci.NAVATEKLTD/Mercury/MetaViz/CMakeLists.txt",
+		"/C/Users/miannucci.NAVATEKLTD/Development/navigation/NavigationReactNative/src/ios/NVSceneController.m",
+		"/C/Users/miannucci.NAVATEKLTD/Development/navigation/NavigationReactNative/src/ios/NVTabBarManager.m",
+		"/C/Users/miannucci.NAVATEKLTD/Development/navigation/NavigationReactNative/src/ios/NVTabBarView.m",
+		"/C/Users/miannucci.NAVATEKLTD/Development/navigation/NavigationReactNative/src/ios/NVTabBarView.h",
+		"/C/Users/miannucci.NAVATEKLTD/Development/navigation/NavigationReactNative/sample/twitter/Home.ios.js",
+		"/C/Users/miannucci.NAVATEKLTD/Development/navigation/NavigationReactNative/sample/twitter/Tweets.js",
+		"/C/Users/miannucci.NAVATEKLTD/Development/navigation/NavigationReactNative/sample/twitter/Tweet.js",
+		"/C/Users/miannucci.NAVATEKLTD/Development/navigation/NavigationReactNative/src/TabBarIOS.tsx",
+		"/C/Users/miannucci.NAVATEKLTD/Development/navigation/NavigationReactNative/sample/twitter/Timeline.js",
+		"/C/Users/miannucci.NAVATEKLTD/Development/navigation/NavigationReactNative/sample/twitter/App.js",
+		"/C/Users/miannucci.NAVATEKLTD/Development/navigation/build/npm/navigation-react-native/navigation.react.native.d.ts",
+		"/C/Users/miannucci.NAVATEKLTD/Development/navigation/NavigationReactNative/src/ios/NVNavigationBarManager.m",
+		"/C/Users/miannucci.NAVATEKLTD/Development/navigation/NavigationReactNative/src/ios/NVNavigationBarView.m",
+		"/C/Users/miannucci.NAVATEKLTD/Development/navigation/NavigationReactNative/src/ios/NVNavigationBarView.h",
+		"/C/Users/miannucci.NAVATEKLTD/Development/navigation/NavigationReactNative/test/node_modules/@types/navigation-react-native.d.ts",
+		"/C/Users/miannucci.NAVATEKLTD/Downloads/DesignScience_tutorial/Final check 2/GeometryPositioning/GeometryPositioning.nml",
+		"/C/Users/miannucci.NAVATEKLTD/AppData/Local/Navatek/NavaSim/AegirGUI/TemporaryFiles/geomDump/geomDump.nml",
+		"/C/Users/miannucci.NAVATEKLTD/Development/unsteady/compute/djinni/waves.djinni",
+		"/C/Users/miannucci.NAVATEKLTD/Documents/trition.md",
+		"/C/Users/miannucci.NAVATEKLTD/Mercury/minerva_detection/Source/MinervaDetection_global.hpp",
+		"/C/Users/miannucci.NAVATEKLTD/Mercury/minerva_detection/Tests/main.cpp",
+		"/C/Users/miannucci.NAVATEKLTD/Mercury/minerva_detection/CMakeLists.txt",
+		"/C/Users/miannucci.NAVATEKLTD/Mercury/minerva_detection/Source/detection_sources.cmake",
+		"/C/Users/miannucci.NAVATEKLTD/Mercury/minerva_detection/Test/CMakeLists.txt",
+		"/C/Users/miannucci.NAVATEKLTD/Mercury/minerva_detection/README.md",
+		"/C/Users/miannucci.NAVATEKLTD/Mercury/minerva_detection/Build/.gitignore"
+	],
+	"find":
+	{
+		"height": 28.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 41.6
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.doc":
+	{
+		"height": 0.0
+	},
+	"output.exec":
+	{
+		"height": 133.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "matthewiannucci.sublime-project",
+	"replace":
+	{
+		"height": 52.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 399.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

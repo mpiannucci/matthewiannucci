@@ -1,0 +1,28 @@
+
+#container {
+	flex: 1;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: center;
+	align-content: center;
+	justify-content: center;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+.photo-tile {
+	flex: 1;
+	margin-bottom: 16px;
+	width: 300px;
+}
+
+.photo {
+	width: 300px;
+}
+
+.photo-caption {
+	font-size: 12px;
+	font-style: italic;
+	text-align: center;
+}

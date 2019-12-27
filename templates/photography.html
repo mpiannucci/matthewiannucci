@@ -1,5 +1,23 @@
 {% extends 'base.html' %}
-{% block title %}Matthew Iannucci - Photography Portfolio{% endblock %}
+{% block title %}Matthew Iannucci - Photography{% endblock %}
 {% block content %}
+
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/photography.css') }}">
+
+<div id="container">
+	<div class="photo-tile">
+		<img class="photo" src="{{ url_for('static', filename='img/photos/cooper_2.jpg') }}">
+		<p class="photo-caption">Cooper the American Foxhound</p>
+	</div>
+	<div class="photo-tile">
+		<img class="photo" src="{{ url_for('static', filename='img/photos/cooper_2.jpg') }}">
+	</div>
+	<div class="photo-tile">
+		<img class="photo" src="{{ url_for('static', filename='img/photos/cooper_2.jpg') }}">
+	</div>
+	<div class="photo-tile">
+		<img class="photo" src="{{ url_for('static', filename='img/photos/cooper_2.jpg') }}">
+	</div>
+</div>
 
 {% endblock %}

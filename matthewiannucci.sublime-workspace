@@ -4,6 +4,50 @@
 		"selected_items":
 		[
 			[
+				"padd",
+				"padding-bottom\tproperty"
+			],
+			[
+				"margin",
+				"margin-bottom\tproperty"
+			],
+			[
+				"background",
+				"background-color\tproperty"
+			],
+			[
+				"flex",
+				"flex-direction\tproperty"
+			],
+			[
+				"align",
+				"align-items\tproperty"
+			],
+			[
+				"border",
+				"border-radius\tproperty"
+			],
+			[
+				"backgroun",
+				"background-color\tproperty"
+			],
+			[
+				"back",
+				"background-color\tproperty"
+			],
+			[
+				"paddin",
+				"padding-top\tproperty"
+			],
+			[
+				"padding",
+				"padding-right\tproperty"
+			],
+			[
+				"objec",
+				"object-fit\tproperty"
+			],
+			[
 				"in",
 				"intCodeData"
 			],
@@ -95,6 +139,37 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "templates/base.html",
+			"settings":
+			{
+				"buffer_size": 902,
+				"encoding": "UTF-8",
+				"line_ending": "Windows",
+				"name": "base.html"
+			}
+		},
+		{
+			"contents": "<script>\n\texport let name;\n\tname = 'Matthew';\n</script>\n\n<main>\n\t<h1>Hello {name}!</h1>\n\t<p>Visit the <a href=\"https://svelte.dev/tutorial\">Svelte tutorial</a> to learn how to build Svelte apps.</p>\n</main>\n\n<style>\n\tmain {\n\t\ttext-align: center;\n\t\tpadding: 1em;\n\t\tmax-width: 240px;\n\t\tmargin: 0 auto;\n\t}\n\n\th1 {\n\t\tcolor: #ff3e00;\n\t\ttext-transform: uppercase;\n\t\tfont-size: 4em;\n\t\tfont-weight: 100;\n\t}\n\n\t@media (min-width: 640px) {\n\t\tmain {\n\t\t\tmax-width: none;\n\t\t}\n\t}\n</style>",
+			"file": "components/photoviewer/src/App.svelte",
+			"file_size": 472,
+			"file_write_time": 132219525993131987,
+			"settings":
+			{
+				"buffer_size": 472,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "static/css/porfolio.css",
+			"settings":
+			{
+				"buffer_size": 658,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -108,16 +183,24 @@
 		"selected_items":
 		[
 			[
-				"install",
-				"Package Control: Install Package"
-			],
-			[
 				"install ",
 				"Package Control: Install Package"
 			],
 			[
 				"form",
 				"Pretty JSON: Format and Sort JSON"
+			],
+			[
+				"beau",
+				"HTMLBeautify"
+			],
+			[
+				"hmtl",
+				"HTMLBeautify"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
 			],
 			[
 				"forma",
@@ -164,6 +247,19 @@
 	],
 	"file_history":
 	[
+		"/C/Users/miannucci.NAVATEKLTD/Development/matthewiannucci/templates/portfolio.html",
+		"/C/Users/miannucci.NAVATEKLTD/Development/matthewiannucci/templates/landing.html",
+		"/C/Users/miannucci.NAVATEKLTD/Development/matthewiannucci/main.py",
+		"/C/Users/miannucci.NAVATEKLTD/Development/matthewiannucci/templates/contact_row.html",
+		"/C/Users/miannucci.NAVATEKLTD/Development/matthewiannucci/static/css/base.css",
+		"/C/Users/miannucci.NAVATEKLTD/Development/matthewiannucci/static/css/contact_row.css",
+		"/C/Users/miannucci.NAVATEKLTD/Development/matthewiannucci/templates/photography.html",
+		"/C/Users/miannucci.NAVATEKLTD/Development/matthewiannucci/README.md",
+		"/C/Users/miannucci.NAVATEKLTD/Development/matthewiannucci/app.yaml",
+		"/C/Users/miannucci.NAVATEKLTD/Development/matthewiannucci/static/img/favicon/site.webmanifest",
+		"/C/Users/miannucci.NAVATEKLTD/Development/matthewiannucci/static/css/landing.css",
+		"/C/Users/miannucci.NAVATEKLTD/Development/matthewiannucci/.gcloudignore",
+		"/C/Users/miannucci.NAVATEKLTD/Development/matthewiannucci/requirements.txt",
 		"/H/.ssh/config",
 		"/C/Users/miannucci.NAVATEKLTD/Mercury/NavaSimDocumentation/Time Domain Aegir/Hydroelasticity/Time_Domain_Hydroelasticity_Tutorial.html",
 		"/C/Users/miannucci.NAVATEKLTD/Mercury/FMIExecutor/Source/FMURunScript.hpp",
@@ -262,8 +358,101 @@
 	"groups":
 	[
 		{
+			"selected": 1,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "templates/base.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 902,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								758,
+								758
+							]
+						],
+						"settings":
+						{
+							"auto_name": "base.html",
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "components/photoviewer/src/App.svelte",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 472,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								472,
+								472
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Svelte/Svelte.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 2,
+					"file": "static/css/porfolio.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 658,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								353,
+								353
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -284,11 +473,18 @@
 				0,
 				1,
 				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
 			]
 		],
 		"cols":
 		[
 			0.0,
+			0.587165775401,
 			1.0
 		],
 		"rows":
@@ -337,12 +533,12 @@
 	},
 	"select_symbol":
 	{
-		"height": 0.0,
+		"height": 392.0,
 		"last_filter": "",
 		"selected_items":
 		[
 		],
-		"width": 0.0
+		"width": 592.0
 	},
 	"selected_group": 0,
 	"settings":
@@ -352,7 +548,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 399.0,
+	"side_bar_width": 373.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

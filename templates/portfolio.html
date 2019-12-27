@@ -1,19 +1,9 @@
 {% extends 'base.html' %}
 {% block title %}Matthew Iannucci - Code Portfolio{% endblock %}
 {% block content %}
-	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/code.css') }}">
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/porfolio.css') }}">
 	<div id="container">
-		<div id="quickLinkContainer">
-			<a id="githubLink" class="quick-link" href="https://github.com/mpiannucci">
-				<img src="{{ url_for('static', filename='img/GitHub_Logo_White.png') }}" style="width: 180px"/>
-			</a>
-			<a id="resumeLink" class="quick-link" href="{{ url_for('static', filename='doc/MatthewIannucciResume.pdf') }}">
-				<h1>Resume</h1>
-			</a>
-			<a id="linkedInLink" class="quick-link" href="https://www.linkedin.com/in/matthew-iannucci-64a8847a">
-				<img src="{{ url_for('static', filename='img/LI-Logo.png') }}" style="width: 300px"/>
-			</a>
-		</div>
+		{% include 'contact_row.html' %}
 		<div id="appsContainer">
 			<h1>Apps</h1>
 			<div id="hopewaves" class="app-row">
@@ -122,6 +112,30 @@
 						</div>
 					<div>
 				</div>
+			</div>
+		</div>
+		<div id="openSourceContainer">
+			<h1>Open Source</h1>
+			<div id="surfpy">
+				<a href="https://github.com/mpiannucci/surfpy"><h1>SurfPy</h1></a>
+				<h4>A Python library containing math and utilities for generating surf forecasts and monitoring surf conditions</h4>
+				<p>The backbone of HopeWaves, this python library is a suite of tools for creating surf forecasting applications. There are tools for downloading buoy data, tide data, wave model data, and more.</p>
+			</div>
+			<div id="gnomeShellExtendedGestures">
+				<a href="https://github.com/mpiannucci/gnome-shell-extended-gestures"><h1>Gnome Shell Extended Gestures</h1></a>
+				<h4>A Gnome Shell extension enabling the binding of touchpad gestures to custom actions</h4>
+				<a href="https://extensions.gnome.org/extension/1253/extended-gestures/">Download on the Gnome Extensions Store</a>
+				<p>By defualt, GNOME uses libinput to detect touchpad gestures as they are performed by the user. However, it is still fresh and the only gesture detected and acted on out of the box is four finger vertical swipes. When it sees this gesture, it switches workspaces for the user, much like macOS is famous for doing by default. I recently found libinput-gestures which allows you configure other gestures seen by libinput. There are some quirks though and I thought I could make something that works more integrated with GNOME. So I made this extension which lets you enable and configure other gestures such as three finger swipes.</p>
+			</div>
+			<div id="grippy">
+				<a href="https://github.com/mpiannucci/grippy"><h1>GripPy</h1></a>
+				<h4>A pure Python <a href="https://en.wikipedia.org/wiki/GRIB">GRIB 2</a> parsing library</h4>
+				<p>When the HopeWaves app launched, Google App Engine did not allow for the use of python modules containing C and FORTRAN code. In order to download wave model data from NOAA, I created this library to read GRIB 2 data without needing C or FORTRAN code. While slower than existing libraries, it is extremely conveinent to use in restricted and smaller python applications.</p>
+			</div>
+			<div id="miniMaestro">
+				<a href="https://github.com/mpiannucci/MiniMaestro"><h1>Mini Maestro</h1></a>
+				<h4>A Python library for controlling a <a href="https://www.pololu.com/product/1350">Polulu Mini Maestro</a> servo controller</h4>
+				<p>This python library operates over usb serial interface and sends the commands supported by the documentation. This library was used by the University of Rhode Island Department of Ocean Engineering in autonomous vehicle operations. 
 			</div>
 		</div>
 	<div>

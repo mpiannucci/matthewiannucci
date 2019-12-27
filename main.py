@@ -11,9 +11,9 @@ app = flask.Flask(__name__)
 def landing():
 	return flask.render_template('landing.html')
 
-@app.route('/code')
+@app.route('/portfolio')
 def code():
-	return flask.render_template('code.html')
+	return flask.render_template('portfolio.html')
 
 @app.route('/photography')
 def photography():

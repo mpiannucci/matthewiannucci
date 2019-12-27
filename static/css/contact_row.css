@@ -1,0 +1,80 @@
+
+#quickLinkContainer {
+	display: flex; 
+	flex-direction: row; 
+	flex-wrap: wrap; 
+	align-content: center; 
+	align-items: center;
+}
+
+#quickLinkContainer a {
+    text-decoration: none;
+}
+
+#quickLinkContainer a:link {
+    color: #004c75;
+}
+
+#quickLinkContainer a:visited {
+    color: #004c75;
+}
+
+@media (prefers-color-scheme: dark) {
+    #quickLinkContainer a:link {
+        color: #ffffff;
+    }
+    #quickLinkContainer a:visited {
+        color: #ffffff;
+    }
+}
+
+#quickLinkContainer a:hover {
+    color: #87d7ff;
+}
+
+#quickLinkContainer a:active {
+    color: #87d7ff;
+}
+
+.quick-link {
+	padding-top: 8px; 
+	padding-bottom: 8px; 
+	padding-left: 16px; 
+	padding-right: 16px; 
+	margin-right: 8px; 
+	margin-top: 8px; 
+	margin-bottom: 8px; 
+	border-radius: 8px
+}
+
+.text-link {
+	font-size: 24px;
+	font-weight: bold;
+	padding-top: 14px;
+	padding-bottom: 14px;
+}
+
+#githubLink {
+	background-color: purple;
+}
+
+#linkedInLink {
+	background-color: lightgrey;
+}
+
+#resumeLink {
+	background-color: lightblue;
+}
+
+#emailLink {
+	background-color: lightgreen;
+}
+
+@media (prefers-color-scheme: dark) {
+	#resumeLink {
+		background-color: darkblue;
+	}
+	#emailLink {
+		background-color: darkgreen;
+	}
+}

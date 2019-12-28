@@ -26,3 +26,13 @@
 	font-style: italic;
 	text-align: center;
 }
+
+.photo-viewer {
+	position: relative;
+	width: 100%;
+	top: 16px;
+}
+
+.selected-photo {
+	width: 100%;
+}

@@ -22,17 +22,22 @@
 }
 
 .photo-caption {
-	font-size: 12px;
+	font-size: 16px;
 	font-style: italic;
 	text-align: center;
 }
 
 .photo-viewer {
-	position: relative;
+	position: absolute;
+	visibility: hidden;
 	width: 100%;
-	top: 16px;
+	height: 100%;
+	top: 42px;
+	background-color: black;
 }
 
 .selected-photo {
-	width: 100%;
+	margin-left: 15%;
+	margin-right: 15%;
+	width: 65%;
 }

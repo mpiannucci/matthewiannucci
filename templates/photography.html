@@ -4,8 +4,13 @@
 
 <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/photography.css') }}">
 
+<!-- <div id="photoViewer" class="photo-viewer">
+	<img id="selectedPhoto" class="selected-photo" src="{{ url_for('static', filename='img/photos/stone_left.jpg') }}">
+	<div style="flex: 1; justify-content: center; align-items: center; flex-direction: row;" onclick="closePhotoViewer()">Close</div>
+</div> -->
+
 <div id="container">
-	<div class="photo-tile">
+	<div id="wave_of_winter" class="photo-tile" onclick="onPhotoClick(this.id)">
 		<img class="photo" src="{{ url_for('static', filename='img/photos/wave_of_winter.jpg') }}">
 	</div>
 	<div class="photo-tile">
@@ -42,5 +47,18 @@
 		<img class="photo" src="{{ url_for('static', filename='img/photos/stone_left.jpg') }}">
 	</div>
 </div>
+
+<script>
+
+function onPhotoClick(id) {
+	document.getElementById("selectedPhoto").src = '/static/img/photos/' + id + '.jpg';
+	document.getElementById("photoViewer").style.visibility = 'visible';
+}
+
+function closePhotoViewer() {
+	document.getElementById("photoViewer").style.visibility = 'hidden';
+}
+
+</script>
 
 {% endblock %}

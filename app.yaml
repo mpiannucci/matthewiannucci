@@ -2,6 +2,7 @@ runtime: python37
 
 automatic_scaling:
   max_concurrent_requests: 40
+  max_instances: 1
   min_idle_instances: 0
   max_idle_instances: 1
 

@@ -1,4 +1,6 @@
 <script>
+	import Tag from './tag.svelte';
+
 	export let name;
 	export let tagline;
 	export let description;
@@ -18,9 +20,7 @@
 	<p>{description}</p>
 	<div class="flex flex-row flex-wrap space-x-2">
 		{#each tags as tag}
-			<div class="rounded-full bg-blue-600 text-white p-2 my-1">
-				{tag}
-			</div>
+			<Tag {tag} />
 		{/each}
 	</div>
 </div>

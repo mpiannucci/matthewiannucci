@@ -10,7 +10,7 @@
 				>Matthew Iannucci</a
 			>
 			<a class="sm:text-sm md:text-xl hover:text-blue-500 mx-2" href="/#portfolio">Portfolio</a>
-			<a class="sm:text-sm md:text-xl hover:text-blue-500 mx-2" href="/#photos">Photos</a>
+			<!-- <a class="sm:text-sm md:text-xl hover:text-blue-500 mx-2" href="/#photos">Photos</a> -->
 		</div>
 	</nav>
 	<div class="">
@@ -22,11 +22,16 @@
 			/>
 			<div class="sm:px-4 sm:py-4 max-w-md min-w-sm self-center">
 				<h1 class="text-4xl font-extrabold">Hi, I'm Matt</h1>
-
 				<h3 class="text-xl font-bold">
-					I am a <code>[software, ocean]</code> engineer from Rhode Island who enjoys surfing, my dog,
+					I am a <code class="font-mono">[software, ocean]</code> engineer from Rhode Island who enjoys surfing, my dog,
 					and grilling pizzas
 				</h3>
+				<div class="flex flex-row space-x-4 py-2">
+					<a href="mailto:mpiannucci@gmail.com" class="hover:text-blue-500">Contact</a>
+					<a href="/MatthewIannucciResume.pdf" class="hover:text-blue-500">Resume</a>
+					<a href="https://github.com/mpiannucci" class="hover:text-blue-500">GitHub</a>
+					<a href="https://www.linkedin.com/in/matthew-iannucci-64a8847a" class="hover:text-blue-500">LinkedIn</a>
+				</div>
 			</div>
 		</div>
 		<div id="portfolio" class="py-4">
@@ -111,6 +116,8 @@
 				</div>
 			</div>
 		</div>
-		<div id="photos" class="" />
+		<div id="footer" class="max-auto flex justify-center">
+			<p class="text-xs align-middle">Copyright 2022 Matthew Iannucci</p>
+		</div>
 	</div>
 </div>

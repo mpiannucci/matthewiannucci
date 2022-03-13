@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Link from 'next/link'
 import Image from 'next/image'
 import AppInfo from '../components/AppInfo'
 import TextLink from '../components/TextLink'
@@ -14,20 +15,24 @@ export default function Index() {
 
       <header>
         <div>
-          <a className="font-bold text-xl md:text-2xl mr-2 hover:text-blue-500" href="/">Matthew Iannucci</a>
-          <a className="text-sm md:text-xl hover:text-blue-500 mx-2" href="/#portfolio">Portfolio</a>
+          <Link href="/">
+            <a className="font-bold text-xl md:text-2xl mr-2 hover:text-blue-500">Matthew Iannucci</a>
+          </Link>
+          <Link href="/#portfolio">
+            <a className="text-sm md:text-xl hover:text-blue-500 mx-2" >Portfolio</a>
+          </Link>
         </div>
       </header>
 
       <main>
         <div id="header" className="flex flex-row flex-wrap py-4">
           <img
-            className="object-cover h-48 w-48 rounded-full sm:self-center"
             src="/surfing_portrait_2020.jpg"
             alt="Portait of myself paddling"
+            className=' object-cover rounded-full h-64 w-64'
           />
-          <div className="sm:px-4 sm:py-4 max-w-md min-w-sm self-center">
-            <h1 className="text-4xl font-extrabold">Hi, I'm Matt</h1>
+          <div className="px-4 py-4 max-w-md min-w-sm self-center">
+            <h1 className="text-4xl font-extrabold">Hi, I&lsquo;m Matt</h1>
             <h3 className="text-xl font-bold">
               I am a <code className="font-mono">[software, ocean]</code> engineer from Rhode Island who enjoys surfing, walking my dog,
               and grilling pizzas
@@ -40,10 +45,10 @@ export default function Index() {
             </div>
           </div>
         </div>
-        <div id="portfolio" class="py-4">
-          <div id="apps" class="py-4">
-            <h2 class="text-3xl font-extrabold">Apps</h2>
-            <div class="flex flex-row flex-wrap md:space-x-8">
+        <div id="portfolio" className="py-4">
+          <div id="apps" className="py-4">
+            <h2 className="text-3xl font-extrabold">Apps</h2>
+            <div className="flex flex-row flex-wrap md:space-x-8">
               <AppInfo
                 name="HopeWaves"
                 tagline="A local surf forecasting service and app for Rhode Island"
@@ -66,9 +71,9 @@ export default function Index() {
               />
             </div>
           </div>
-          <div id="open-source" class="py-4">
-            <h2 class="text-3xl font-extrabold">Open Source</h2>
-            <div class="flex flex-row flex-wrap">
+          <div id="open-source" className="py-4">
+            <h2 className="text-3xl font-extrabold">Open Source</h2>
+            <div className="flex flex-row flex-wrap">
               <AppInfo
                 name="SurfPy"
                 tagline="A Python library containing math and utilities for generating surf forecasts and monitoring surf conditions."
@@ -104,7 +109,7 @@ export default function Index() {
                 name="Mini Maestro"
                 description="Control MiniMaestro servo controllers with python via I2C"
                 links={[
-                  {title: 'View on GitHub', target: 'https://github.com/mpiannucci/MiniMaestro'}
+                  { title: 'View on GitHub', target: 'https://github.com/mpiannucci/MiniMaestro' }
                 ]}
               />
             </div>

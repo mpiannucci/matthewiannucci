@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
+    "deploy-gae": "next build && gcloud app deploy --project mpiannucci",
+    "start": "next start -p 8080",
     "lint": "next lint"
   },
   "dependencies": {

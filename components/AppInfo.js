@@ -10,7 +10,7 @@ const AppInfo = ({ name, tagline, description, icon, links }) => (
             <h6 className="text-md">{tagline}</h6>
             <p>{description}</p>
             <div className="flex flex-row space-x-3 py-4">
-                {links?.map(l => <TextLink {...l} />)}
+                {links?.map(l => <TextLink key={l.target} {...l} />)}
             </div>
         </div>
     </div>

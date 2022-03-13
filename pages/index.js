@@ -5,7 +5,7 @@ import TextLink from '../components/TextLink'
 
 export default function Index() {
   return (
-    <div className='md:container mx-auto my-2 px-4"'>
+    <div className='md:container mx-auto py-2 px-4 dark:bg-slate-900 dark:text-white'>
       <Head>
         <title>Matthew Iannucci</title>
         <meta name="description" content="Welcome to my site" />
@@ -14,8 +14,8 @@ export default function Index() {
 
       <header>
         <div>
-          <a className="font-bold sm:text-xl md:text-2xl mr-2 hover:text-blue-500" href="/">Matthew Iannucci</a>
-          <a className="sm:text-sm md:text-xl hover:text-blue-500 mx-2" href="/#portfolio">Portfolio</a>
+          <a className="font-bold text-xl md:text-2xl mr-2 hover:text-blue-500" href="/">Matthew Iannucci</a>
+          <a className="text-sm md:text-xl hover:text-blue-500 mx-2" href="/#portfolio">Portfolio</a>
         </div>
       </header>
 
@@ -43,7 +43,7 @@ export default function Index() {
         <div id="portfolio" class="py-4">
           <div id="apps" class="py-4">
             <h2 class="text-3xl font-extrabold">Apps</h2>
-            <div class="flex flex-row flex-wrap space-x-8">
+            <div class="flex flex-row flex-wrap md:space-x-8">
               <AppInfo
                 name="HopeWaves"
                 tagline="A local surf forecasting service and app for Rhode Island"
@@ -112,7 +112,8 @@ export default function Index() {
         </div>
       </main>
 
-      <footer>
+      <footer className='text-center'>
+        <span className='text-xs'>Copyright 2022 - Matthew Iannucci</span>
       </footer>
     </div>
   )

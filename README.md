@@ -1,4 +1,4 @@
-# matthewiannucci.com
+# [matthewiannucci.com](https://matthewiannucci.com)
 
 Source code for my personal website, written using `next.js`
 
@@ -14,9 +14,9 @@ Navigate to `localhost:3000` to see the app in action while developing
 
 ## Deploying
 
-First, make sure you are logged into gcloud with the `mpiannucci@gmail.com` account. Then ...
+First, make sure you are logged into firebase with the `mpiannucci@gmail.com` account. Then ...
 
 #### Build and deploy
 ```bash
-npm run deploy-gae
+npm run deploy-firebase
 ```

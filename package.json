@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "deploy-gae": "next build && gcloud app deploy --project mpiannucci",
+    "deploy-firebase": "next build && next export",
     "start": "next start -p 8080",
     "lint": "next lint"
   },

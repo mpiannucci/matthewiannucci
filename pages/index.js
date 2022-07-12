@@ -1,6 +1,5 @@
 import Head from 'next/head'
 import Link from 'next/link'
-import Image from 'next/image'
 import AppInfo from '../components/AppInfo'
 import TextLink from '../components/TextLink'
 

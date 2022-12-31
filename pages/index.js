@@ -47,7 +47,7 @@ export default function Index() {
         <div id="portfolio" className="py-4">
           <div id="apps" className="py-4">
             <h2 className="text-3xl font-extrabold">Apps</h2>
-            <div className="flex flex-row flex-wrap md:space-x-8">
+            <div className="grid grid-cols-1 lg:grid-cols-2">
               <AppInfo
                 name="HopeWaves"
                 tagline="A local surf forecasting service and app for Rhode Island"
@@ -57,6 +57,14 @@ export default function Index() {
                   { title: 'iOS', target: 'https://geo.itunes.apple.com/us/app/hackwinds/id945847570?mt=8' },
                   { title: 'Android', target: 'https://play.google.com/store/apps/details?id=com.nucc.hackwinds&hl=en&utm_source=global_co&utm_medium=prtnr&utm_content=Mar2515&utm_campaign=PartBadge&pcampaignid=MKT-AC-global-none-all-co-pr-py-PartBadges-Oct1515-1' },
                   { title: 'Web', target: 'https://hopewaves.app' },
+                ]}
+              />
+              <AppInfo
+                name="playbuoy"
+                tagline="Visualize directional wave data for NOAA buoys"
+                icon="/playbuoy-ios-icon-blue-background.png"
+                links={[
+                  {title: 'Launch', target: 'https://playbuoy.app'}
                 ]}
               />
               <AppInfo

@@ -4,10 +4,10 @@ const nextConfig = {
   images: {
     domains: [
       'hopewaves.app', 
-      'govalet-backend.appspot.com'
+      'govalet-backend.appspot.com', 
     ]
   }, 
-  distDir: 'build',
+  output: 'export',
 }
 
 module.exports = nextConfig

@@ -50,7 +50,8 @@ export default function Index() {
                             tagline="Visualize directional wave data for NOAA buoys"
                             icon="/playbuoy-ios-icon-blue-background.png"
                             links={[
-                                { title: 'Launch', target: 'https://playbuoy.app' }
+                                {title: 'iOS', target: 'https://apps.apple.com/us/app/playbuoy/id1662001103'},
+                                { title: 'Web', target: 'https://playbuoy.app' }
                             ]}
                         />
                         <AppInfo

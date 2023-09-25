@@ -50,7 +50,7 @@ export default function Index() {
                             tagline="Visualize directional wave data for NOAA buoys"
                             icon="/playbuoy-ios-icon-blue-background.png"
                             links={[
-                                {title: 'iOS', target: 'https://apps.apple.com/us/app/playbuoy/id1662001103'},
+                                { title: 'iOS', target: 'https://apps.apple.com/us/app/playbuoy/id1662001103' },
                                 { title: 'Web', target: 'https://playbuoy.app' }
                             ]}
                         />
@@ -91,6 +91,20 @@ export default function Index() {
                             ]}
                         />
                         <AppInfo
+                            name="readap"
+                            description="Read OpenDAP binary data with Rust"
+                            links={[
+                                { title: 'View on GitHub', target: 'https://github.com/mpiannucci/readap' }
+                            ]}
+                        />
+                        <AppInfo
+                            name="FeatureShapes"
+                            description="Render GeoJSON Features as SwiftUI Shapes"
+                            links={[
+                                { title: 'View on GitHub', target: 'https://github.com/mpiannucci/FeatureShapes' }
+                            ]}
+                        />
+                        <AppInfo
                             name="SurfPy"
                             tagline="A Python library containing math and utilities for generating surf forecasts and monitoring surf conditions."
                             //The backbone of HopeWaves, this python library is a suite of tools for creating surf forecasting applications. There are tools for downloading buoy data, tide data, wave model data, and more."
@@ -98,19 +112,13 @@ export default function Index() {
                                 { title: 'View on GitHub', target: 'https://github.com/mpiannucci/surfpy' }
                             ]}
                         />
+
                         <AppInfo
                             name="Gnome Shell Extended Gestures"
                             tagline="A Gnome extension to customize and control multitouch trackpad gestures"
                             links={[
                                 { title: 'Download for Gnome', target: 'https://extensions.gnome.org/extension/1253/extended-gestures/' },
                                 { title: 'View on GitHub', target: 'https://github.com/mpiannucci/gnome-shell-extended-gestures' }
-                            ]}
-                        />
-                        <AppInfo
-                            name="readap"
-                            description="Read OpenDAP binary data with Rust"
-                            links={[
-                                { title: 'View on GitHub', target: 'https://github.com/mpiannucci/readap' }
                             ]}
                         />
                     </div>

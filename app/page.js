@@ -54,13 +54,26 @@ export default function Index() {
                                 { title: 'Web', target: 'https://playbuoy.app' }
                             ]}
                         />
-                        <AppInfo
+                        {/* <AppInfo
                             name="GoValet - Valet on the Go"
                             tagline="A cloud based mobile Valet service and app"
                             // description="Running in Google Cloud with Firebase, GoValet is a modern Valet solution enabling digital payments, customer notifications, digital ticket management, and more. Written in Flutter, the cross platform mobile app serves as a control conter for Valet companies and an easy to use payment solution for valet customers. Customers without the app can request their vehicles and pay online without needing to download the app. It is currently used in production for various companies throughout Rhode Island."
                             icon="https://govalet-backend.appspot.com/static/images/GoValet.png"
                             links={[
                                 { title: 'Learn More', target: 'https://www.govaletapp.com/' }
+                            ]}
+                        /> */}
+                    </div>
+                </div>
+                <div id="content" className="py-4">
+                    <h2 className="text-3xl font-extrabold">Content</h2>
+                    <div className="flex flex-row flex-wrap">
+                    <AppInfo
+                            name="Pangeo Showcase"
+                            description="Improving Access to NOAA National Ocean Service Model Data with Kerchunk and XPublish"
+                            links={[
+                                { title: 'Watch on YouTube', target: 'https://www.youtube.com/watch?v=Bxkg6LJpKyc' },
+                                { title: 'Discuss on Discourse', target: 'https://discourse.pangeo.io/t/pangeo-showcase-improving-access-to-noaa-national-ocean-service-model-data-with-kerchunk-and-xpublish/3725/1' },
                             ]}
                         />
                     </div>

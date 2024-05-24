@@ -20,17 +20,6 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props
         <main>
             <article>
                 <div>
-                    {
-                        heroImage && (
-                            <img
-                                class="w-full object-cover"
-                                src={heroImage}
-                                alt=""
-                            />
-                        )
-                    }
-                </div>
-                <div>
                     <div class="py-4">
                         <h1 class="text-2xl font-extrabold">{title}</h1>
                         <div class="py-2 text-xl">
@@ -44,7 +33,17 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props
                                 )
                             }
                         </div>
-                        <hr />
+                    </div>
+                    <div class='mb-8'>
+                        {
+                            heroImage && (
+                                <img
+                                    class="h-64 w-full object-cover rounded-lg"
+                                    src={heroImage}
+                                    alt=""
+                                />
+                            )
+                        }
                     </div>
                     <slot />
                 </div>

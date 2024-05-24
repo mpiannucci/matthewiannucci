@@ -27,11 +27,11 @@ const posts = (await getCollection('blog')).sort(
                                 <a href={`/blog/${post.slug}/`}>
                                     <div class="flex flex-col md:flex-row flex-wrap">
                                         <img
-                                            class="w-full md:w-48 md:h-48 object-cover md:rounded-lg"
+                                            class="w-full md:w-48 md:h-48 object-cover rounded-lg"
                                             src={post.data.heroImage}
                                             alt={post.data.title}
                                         />
-                                        <div class="flex flex-col md:pl-4">
+                                        <div class="flex flex-col md:pl-4 my-2">
                                             <h4 class="text-xl font-bold">{post.data.title}</h4>
                                             <p>
                                                 <FormattedDate

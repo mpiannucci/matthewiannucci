@@ -1,76 +1,93 @@
 ---
-import BaseHead from "../components/BaseHead.astro";
-import Header from "../components/Header.astro";
-import Footer from "../components/Footer.astro";
-import { SITE_TITLE, SITE_DESCRIPTION } from "../consts";
-import AppInfo from "../components/AppInfo.astro";
-import TextLink from "../components/TextLink.astro";
+import BaseHead from '../components/BaseHead.astro'
+import Header from '../components/Header.astro'
+import Footer from '../components/Footer.astro'
+import { SITE_TITLE, SITE_DESCRIPTION } from '../consts'
+import AppInfo from '../components/AppInfo.astro'
+import TextLink from '../components/TextLink.astro'
 ---
 
 <!doctype html>
 <html lang="en">
-  <head>
-    <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
-  </head>
-  <body class="dark:bg-slate-900 dark:text-white container mx-auto px-4">
-    <Header />
-    <main>
-      <div id="jumbo" class="flex flex-row flex-wrap md:flex-nowrap py-4">
-        <img
-          src="/surfing_portrait_2020-min.jpg"
-          alt="Portait of myself paddling"
-          class="h-64 w-64 rounded-full object-cover mb-4"
-        />
-        <div class="md:ml-4">
-          <h1 class="text-4xl font-extrabold ">Hi, I&lsquo;m Matt</h1>
-          <h3 class="text-xl font-bold">
-            I am a <code class="font-mono">[software, ocean]</code> engineer from
-            Rhode Island who enjoys surfing, walking my dogs, and grilling pizzas
-          </h3>
-          <div class="flex flex-row flex-wrap gap-x-4 gap-y-4">
-			<TextLink target="mailto:mpiannucci@gmail.com" title="Contact" />
-			<TextLink target="/MatthewIannucciResume.pdf" title="Resume" />
-			<TextLink target="https://github.com/mpiannucci" title="Github" />
-			<TextLink target="https://www.linkedin.com/in/matthew-iannucci-64a8847a" title="LinkedIn" />
-          </div>
-        </div>
-      </div>
-      <div id="portfolio" class="py-4">
-        <div id="apps" class="py-4">
-          <h2 class="text-3xl font-extrabold">Apps</h2>
-          <div class="grid grid-cols-1 lg:grid-cols-2">
-            <AppInfo
-              name="HopeWaves"
-              tagline="A local surf forecasting service and app for Rhode Island"
-              icon="https://hopewaves.app/icon.png"
-              links={[
-                {
-                  title: "iOS",
-                  target:
-                    "https://geo.itunes.apple.com/us/app/hackwinds/id945847570?mt=8",
-                },
-                {
-                  title: "Android",
-                  target:
-                    "https://play.google.com/store/apps/details?id=com.nucc.hackwinds&hl=en&utm_source=global_co&utm_medium=prtnr&utm_content=Mar2515&utm_campaign=PartBadge&pcampaignid=MKT-AC-global-none-all-co-pr-py-PartBadges-Oct1515-1",
-                },
-                { title: "Web", target: "https://hopewaves.app" },
-              ]}
-            />
-            <AppInfo
-              name="playbuoy"
-              tagline="Visualize directional wave data for NOAA buoys"
-              icon="/playbuoy-ios-icon-blue-background.png"
-              links={[
-                {
-                  title: "iOS",
-                  target: "https://apps.apple.com/us/app/playbuoy/id1662001103",
-                },
-                { title: "Web", target: "https://playbuoy.app" },
-              ]}
-            />
-            {
-              /* <AppInfo
+    <head>
+        <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+    </head>
+    <body class="dark:bg-slate-900 dark:text-white container mx-auto px-4">
+        <Header />
+        <main>
+            <div id="jumbo" class="flex flex-row flex-wrap md:flex-nowrap py-4">
+                <img
+                    src="/surfing_portrait_2020-min.jpg"
+                    alt="Portait of myself paddling"
+                    class="h-64 w-64 rounded-full object-cover mb-4"
+                />
+                <div class="md:ml-4">
+                    <h1 class="text-4xl font-extrabold">Hi, I&lsquo;m Matt</h1>
+                    <h3 class="text-xl font-bold">
+                        I am a <code class="font-mono">[software, ocean]</code> engineer
+                        from Rhode Island who enjoys surfing, walking my dogs, and
+                        grilling pizzas
+                    </h3>
+                    <div class="flex flex-row flex-wrap gap-x-4 gap-y-4 my-2">
+                        <TextLink
+                            target="mailto:mpiannucci@gmail.com"
+                            title="Contact"
+                        />
+                        <TextLink
+                            target="/MatthewIannucciResume.pdf"
+                            title="Resume"
+                        />
+                        <TextLink
+                            target="https://github.com/mpiannucci"
+                            title="Github"
+                        />
+                        <TextLink
+                            target="https://www.linkedin.com/in/matthew-iannucci-64a8847a"
+                            title="LinkedIn"
+                        />
+                    </div>
+                </div>
+            </div>
+            <div id="portfolio" class="py-4">
+                <div id="apps" class="py-4">
+                    <h2 class="text-3xl font-extrabold">Apps</h2>
+                    <div class="grid grid-cols-1 lg:grid-cols-2">
+                        <AppInfo
+                            name="HopeWaves"
+                            tagline="A local surf forecasting service and app for Rhode Island"
+                            icon="https://hopewaves.app/icon.png"
+                            links={[
+                                {
+                                    title: 'iOS',
+                                    target: 'https://geo.itunes.apple.com/us/app/hackwinds/id945847570?mt=8',
+                                },
+                                {
+                                    title: 'Android',
+                                    target: 'https://play.google.com/store/apps/details?id=com.nucc.hackwinds&hl=en&utm_source=global_co&utm_medium=prtnr&utm_content=Mar2515&utm_campaign=PartBadge&pcampaignid=MKT-AC-global-none-all-co-pr-py-PartBadges-Oct1515-1',
+                                },
+                                {
+                                    title: 'Web',
+                                    target: 'https://hopewaves.app',
+                                },
+                            ]}
+                        />
+                        <AppInfo
+                            name="playbuoy"
+                            tagline="Visualize directional wave data for NOAA buoys"
+                            icon="/playbuoy-ios-icon-blue-background.png"
+                            links={[
+                                {
+                                    title: 'iOS',
+                                    target: 'https://apps.apple.com/us/app/playbuoy/id1662001103',
+                                },
+                                {
+                                    title: 'Web',
+                                    target: 'https://playbuoy.app',
+                                },
+                            ]}
+                        />
+                        {
+                            /* <AppInfo
                             name="GoValet - Valet on the Go"
                             tagline="A cloud based mobile Valet service and app"
                             // description="Running in Google Cloud with Firebase, GoValet is a modern Valet solution enabling digital payments, customer notifications, digital ticket management, and more. Written in Flutter, the cross platform mobile app serves as a control conter for Valet companies and an easy to use payment solution for valet customers. Customers without the app can request their vehicles and pay online without needing to download the app. It is currently used in production for various companies throughout Rhode Island."
@@ -79,129 +96,124 @@ import TextLink from "../components/TextLink.astro";
                                 { title: 'Learn More', target: 'https://www.govaletapp.com/' }
                             ]}
                         /> */
-            }
-          </div>
-        </div>
-        <div id="content" class="py-4">
-          <h2 class="text-3xl font-extrabold">Content</h2>
-          <div class="flex flex-row flex-wrap">
-            <AppInfo
-              name="Pangeo Showcase"
-              description="Improving Access to NOAA National Ocean Service Model Data with Kerchunk and XPublish"
-              links={[
-                {
-                  title: "Watch on YouTube",
-                  target: "https://www.youtube.com/watch?v=Bxkg6LJpKyc",
-                },
-                {
-                  title: "Discuss on Discourse",
-                  target:
-                    "https://discourse.pangeo.io/t/pangeo-showcase-improving-access-to-noaa-national-ocean-service-model-data-with-kerchunk-and-xpublish/3725/1",
-                },
-              ]}
-            />
-          </div>
-        </div>
-        <div id="open-source" class="py-4">
-          <h2 class="text-3xl font-extrabold">Open Source</h2>
-          <div class="flex flex-row flex-wrap">
-            <AppInfo
-              name="React Native Context Menu View"
-              tagline="Use native context menu functionality from React Native."
-              links={[
-                {
-                  title: "View on npm",
-                  target:
-                    "https://www.npmjs.com/package/react-native-context-menu-view",
-                },
-                {
-                  title: "View on GitHub",
-                  target:
-                    "https://github.com/mpiannucci/react-native-context-menu-view",
-                },
-              ]}
-            />
-            <AppInfo
-              name="Gribberish"
-              description="Read GRIB2 files with Rust."
-              links={[
-                {
-                  title: "View on GitHub",
-                  target: "https://github.com/mpiannucci/gribberish",
-                },
-              ]}
-            />
-            <AppInfo
-              name="Xpublish WMS"
-              description="WMS router plugin for xpublish"
-              links={[
-                {
-                  title: "View on GitHub",
-                  target: "https://github.com/xpublish-community/xpublish-wms",
-                },
-              ]}
-            />
-            <AppInfo
-              name="readap"
-              description="Read OpenDAP binary data with Rust"
-              links={[
-                {
-                  title: "View on GitHub",
-                  target: "https://github.com/mpiannucci/readap",
-                },
-              ]}
-            />
-            <AppInfo
-              name="FeatureShapes"
-              description="Render GeoJSON Features as SwiftUI Shapes"
-              links={[
-                {
-                  title: "View on GitHub",
-                  target: "https://github.com/mpiannucci/FeatureShapes",
-                },
-              ]}
-            />
-            <AppInfo
-              name="SwiftContour"
-              description="Compute contour polygons using marching squares in Swift"
-              links={[
-                {
-                  title: "View on GitHub",
-                  target: "https://github.com/mpiannucci/SwiftContour",
-                },
-              ]}
-            />
-            <AppInfo
-              name="SurfPy"
-              tagline="A Python library containing math and utilities for generating surf forecasts and monitoring surf conditions. The backbone of HopeWaves, this python library is a suite of tools for creating surf forecasting applications. There are tools for downloading buoy data, tide data, wave model data, and more."
-              links={[
-                {
-                  title: "View on GitHub",
-                  target: "https://github.com/mpiannucci/surfpy",
-                },
-              ]}
-            />
+                        }
+                    </div>
+                </div>
+                <div id="content" class="py-4">
+                    <h2 class="text-3xl font-extrabold">Content</h2>
+                    <div class="flex flex-row flex-wrap">
+                        <AppInfo
+                            name="Pangeo Showcase"
+                            description="Improving Access to NOAA National Ocean Service Model Data with Kerchunk and XPublish"
+                            links={[
+                                {
+                                    title: 'Watch on YouTube',
+                                    target: 'https://www.youtube.com/watch?v=Bxkg6LJpKyc',
+                                },
+                                {
+                                    title: 'Discuss on Discourse',
+                                    target: 'https://discourse.pangeo.io/t/pangeo-showcase-improving-access-to-noaa-national-ocean-service-model-data-with-kerchunk-and-xpublish/3725/1',
+                                },
+                            ]}
+                        />
+                    </div>
+                </div>
+                <div id="open-source" class="py-4">
+                    <h2 class="text-3xl font-extrabold">Open Source</h2>
+                    <div class="flex flex-row flex-wrap">
+                        <AppInfo
+                            name="React Native Context Menu View"
+                            tagline="Use native context menu functionality from React Native."
+                            links={[
+                                {
+                                    title: 'View on npm',
+                                    target: 'https://www.npmjs.com/package/react-native-context-menu-view',
+                                },
+                                {
+                                    title: 'View on GitHub',
+                                    target: 'https://github.com/mpiannucci/react-native-context-menu-view',
+                                },
+                            ]}
+                        />
+                        <AppInfo
+                            name="Gribberish"
+                            description="Read GRIB2 files with Rust."
+                            links={[
+                                {
+                                    title: 'View on GitHub',
+                                    target: 'https://github.com/mpiannucci/gribberish',
+                                },
+                            ]}
+                        />
+                        <AppInfo
+                            name="Xpublish WMS"
+                            description="WMS router plugin for xpublish"
+                            links={[
+                                {
+                                    title: 'View on GitHub',
+                                    target: 'https://github.com/xpublish-community/xpublish-wms',
+                                },
+                            ]}
+                        />
+                        <AppInfo
+                            name="readap"
+                            description="Read OpenDAP binary data with Rust"
+                            links={[
+                                {
+                                    title: 'View on GitHub',
+                                    target: 'https://github.com/mpiannucci/readap',
+                                },
+                            ]}
+                        />
+                        <AppInfo
+                            name="FeatureShapes"
+                            description="Render GeoJSON Features as SwiftUI Shapes"
+                            links={[
+                                {
+                                    title: 'View on GitHub',
+                                    target: 'https://github.com/mpiannucci/FeatureShapes',
+                                },
+                            ]}
+                        />
+                        <AppInfo
+                            name="SwiftContour"
+                            description="Compute contour polygons using marching squares in Swift"
+                            links={[
+                                {
+                                    title: 'View on GitHub',
+                                    target: 'https://github.com/mpiannucci/SwiftContour',
+                                },
+                            ]}
+                        />
+                        <AppInfo
+                            name="SurfPy"
+                            tagline="A Python library containing math and utilities for generating surf forecasts and monitoring surf conditions. The backbone of HopeWaves, this python library is a suite of tools for creating surf forecasting applications. There are tools for downloading buoy data, tide data, wave model data, and more."
+                            links={[
+                                {
+                                    title: 'View on GitHub',
+                                    target: 'https://github.com/mpiannucci/surfpy',
+                                },
+                            ]}
+                        />
 
-            <AppInfo
-              name="Gnome Shell Extended Gestures"
-              tagline="A Gnome extension to customize and control multitouch trackpad gestures"
-              links={[
-                {
-                  title: "Download for Gnome",
-                  target:
-                    "https://extensions.gnome.org/extension/1253/extended-gestures/",
-                },
-                {
-                  title: "View on GitHub",
-                  target:
-                    "https://github.com/mpiannucci/gnome-shell-extended-gestures",
-                },
-              ]}
-            />
-          </div>
-        </div>
-      </div>
-    </main>
-    <Footer />
-  </body>
+                        <AppInfo
+                            name="Gnome Shell Extended Gestures"
+                            tagline="A Gnome extension to customize and control multitouch trackpad gestures"
+                            links={[
+                                {
+                                    title: 'Download for Gnome',
+                                    target: 'https://extensions.gnome.org/extension/1253/extended-gestures/',
+                                },
+                                {
+                                    title: 'View on GitHub',
+                                    target: 'https://github.com/mpiannucci/gnome-shell-extended-gestures',
+                                },
+                            ]}
+                        />
+                    </div>
+                </div>
+            </div>
+        </main>
+        <Footer />
+    </body>
 </html>

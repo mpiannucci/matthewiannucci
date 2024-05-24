@@ -12,22 +12,22 @@ import TextLink from "../components/TextLink.astro";
   <head>
     <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
   </head>
-  <body class="dark:bg-slate-900 dark:text-white container mx-auto">
+  <body class="dark:bg-slate-900 dark:text-white container mx-auto px-4">
     <Header />
     <main>
-      <div id="jumbo" class="flex flex-row flex-wrap py-4">
+      <div id="jumbo" class="flex flex-row flex-wrap md:flex-nowrap py-4">
         <img
           src="/surfing_portrait_2020-min.jpg"
           alt="Portait of myself paddling"
-          class="h-64 w-64 rounded-full object-cover"
+          class="h-64 w-64 rounded-full object-cover mb-4"
         />
-        <div class="min-w-sm max-w-md self-center px-4 py-4">
-          <h1 class="text-4xl font-extrabold">Hi, I&lsquo;m Matt</h1>
+        <div class="md:ml-4">
+          <h1 class="text-4xl font-extrabold ">Hi, I&lsquo;m Matt</h1>
           <h3 class="text-xl font-bold">
             I am a <code class="font-mono">[software, ocean]</code> engineer from
             Rhode Island who enjoys surfing, walking my dogs, and grilling pizzas
           </h3>
-          <div class="flex flex-row space-x-4 py-4">
+          <div class="flex flex-row flex-wrap gap-x-4 gap-y-4">
 			<TextLink target="mailto:mpiannucci@gmail.com" title="Contact" />
 			<TextLink target="/MatthewIannucciResume.pdf" title="Resume" />
 			<TextLink target="https://github.com/mpiannucci" title="Github" />
@@ -42,7 +42,6 @@ import TextLink from "../components/TextLink.astro";
             <AppInfo
               name="HopeWaves"
               tagline="A local surf forecasting service and app for Rhode Island"
-              description="This automated surf forecast service pulls in data from NOAA's Wave Watch III wave model and generates a custom surf forecast for the Rhode Island coastline. It also packages local beach cameras, buoy data, tide forecasts, and weather information into a easily digestible and modern interface."
               icon="https://hopewaves.app/icon.png"
               links={[
                 {

@@ -13,7 +13,6 @@ npm run dev
 
 ## Deployment
 
-```bash
-npm run build
-firebase deploy
-```
+This app is currently deployed to Cloudflare Pages. It is configured to deploy automatically when changes are pushed to the `main` branch.
+
+[mattnucc.com](https://mattnucc.com)

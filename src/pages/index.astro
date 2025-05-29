@@ -101,7 +101,21 @@ import TextLink from '../components/TextLink.astro'
                 </div>
                 <div id="content" class="py-4">
                     <h2 class="text-3xl font-extrabold">Content</h2>
-                    <div class="flex flex-row flex-wrap">
+                    <div class="flex flex-row flex-wrap gap-4">
+                        <AppInfo
+                            name="Enhancing weather data products with the web and Flux"
+                            description="A webinar on how to use Earthmover's Flux to build interactive weather web apps"
+                            links={[
+                                {
+                                    title: 'Watch on YouTube',
+                                    target: 'https://www.youtube.com/watch?v=EfKnHQEZF3w',
+                                },
+                                {
+                                    title: 'View on GitHub',
+                                    target: 'https://github.com/earth-mover/flux-web-demo',
+                                },
+                            ]}
+                        />
                         <AppInfo
                             name="Pangeo Showcase"
                             description="Improving Access to NOAA National Ocean Service Model Data with Kerchunk and XPublish"
